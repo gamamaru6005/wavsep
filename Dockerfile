@@ -1,6 +1,6 @@
 FROM tomcat:latest
 
-ADD *.war /usr/local/tomcat/webapps/
+ADD wavsep.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
