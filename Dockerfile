@@ -1,5 +1,6 @@
 FROM tomcat:latest
 
+RUN rm -rf /usr/local/tomcat/webapps/docs /usr/local/tomcat/webapps/examples /usr/local/tomcat/webapps/ROOT
 ADD wavsep.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
